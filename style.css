@@ -1,0 +1,39 @@
+.maincontainer{
+    background-color: orangered;
+    height: 125px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.image{
+    display: flex;
+    align-items: center; 
+    column-gap: 80px;
+    padding-left: 74px;
+}
+.image > img{
+    width: 137px;
+    height: 42px;
+}
+#input{
+    height: 40px;
+    width: 800px;
+    border: none;
+}
+header{
+    display: flex;
+    align-items: center;   
+    color: white;
+    font-size: 12px;
+}
+ nav ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 35px;
+    padding-left: 617px;
+    padding-top: opx;
+}
+#icon{
+    height: 28px;
+    width: 400px;
+}
