@@ -1,56 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>  
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Daraz</title>
-</head>
-<body>
-    <header>
-        <div class="maincontainer">
-            <nav>
+  </head>
+  <body>
+    <header class="fixed-top">
+        <div class="container">
+            <div class="maincontainer">
+              <nav>
                 <ul>
-                    <li>SAVE MORE ON APP</li>
-                    <li>SELL ON DARAZ</li>
-                    <li>HELP & SUPPORT</li>
-                    <li>LOGIN</li>
-                    <li>SIGN UP</li>
-                    <li>زبان تبدیل کریں</li>
+                  <li>SAVE MORE ON APP</li>
+                  <li>SELL ON DARAZ</li>
+                  <li>HELP & SUPPORT</li>
+                  <li>LOGIN</li>
+                  <li>SIGN UP</li>
+                  <li>زبان تبدیل کریں</li>
                 </ul>
-            </nav>
+              </nav>
+            </div>
             <div class="image">
-                <img src="3b870cb043c7f8a9741cbf66329e294e.png"
-            <label for="">
-                <input type="text" placeholder="Search in Daraz" id="input">
-                <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-                  </svg>
-            </label>
+              <div class="daraz-icon">
+                <img
+                  src="https://lzd-img-global.slatic.net/us/domino/3b870cb043c7f8a9741cbf66329e294e.png"
+                  class="icon-1"
+                  alt="Online Shopping Daraz.PK Logo"
+                  data-spm-anchor-id="a2a0e.searchlist.dhome.i0.36ad55c8Oxg9ia"
+                />
+              </div>
+              <div class="header-search">
+                <input type="text" placeholder="Search in Daraz" id="input" />
+                <div class="daraz-shop-icon">
+                    <svg
+                      width="30"
+                      height="30"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      data-spm-anchor-id="a2a0e.searchlist.dcart.i0.36ad55c8Oxg9ia"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M4.51345 5H1.33325V3H6.15306L7.21972 8.33333H30.5315L27.5012 25H8.51345L4.51345 5ZM7.61972 10.3333L10.1531 23H25.832L28.135 10.3333H7.61972Z"
+                        fill="white"
+                      ></path>
+                      <path
+                        d="M11.9999 28C11.9999 28.7364 11.403 29.3333 10.6666 29.3333C9.93021 29.3333 9.33325 28.7364 9.33325 28C9.33325 27.2636 9.93021 26.6667 10.6666 26.6667C11.403 26.6667 11.9999 27.2636 11.9999 28Z"
+                        fill="white"
+                      ></path>
+                      <path
+                        d="M25.3333 29.3333C26.0696 29.3333 26.6666 28.7364 26.6666 28C26.6666 27.2636 26.0696 26.6667 25.3333 26.6667C24.5969 26.6667 23.9999 27.2636 23.9999 28C23.9999 28.7364 24.5969 29.3333 25.3333 29.3333Z"
+                        fill="white"
+                      ></path>
+                    </svg>
+                </div>
+              </div>
+              <!-- </label> -->
+            </div>
         </div>
-        </div>    
     </header>
+    <section>
+        <div class="container">
+            <div class="row row-gap-3">
+                <div class="col-xl-3">
+                    <div class="card">
+                        <img src="https://img.drz.lazcdn.com/static/pk/p/0ca925dfc411cba8b07278f2ce3bf4a9.jpg_400x400q80.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Last Chance Buy OPPO Reno11 5G | 12GB RAM + 256GB ROM at Lowest Price</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="productPrice pb-2">7500</div>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
 
-    
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="card">
-                <img class="card-img-top" src="f8a77a61f8d447c570291034d8bdd101.jpg_200x200q80.jpg_.webp" >
-                <div class="card-body">
-                <h5></h5>
-                <p>Hoodie For Men & Boys New Vertical Stripes Printed Kangaroo Hoodie Pocket Drawstring Pullovers Clothing Long Sleeves Export Quality Winter Wear
-                    Rs.997 -58%
-                    (71)</p>
-            </div>
+                <div class="col-xl-3">
+                    <div class="card">
+                        <img src="https://img.drz.lazcdn.com/static/pk/p/0ca925dfc411cba8b07278f2ce3bf4a9.jpg_400x400q80.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Last Chance Buy OPPO Reno11 5G | 12GB RAM + 256GB ROM at Lowest Price</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="productPrice pb-2">7500</div>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-xl-3">
+                    <div class="card">
+                        <img src="https://img.drz.lazcdn.com/static/pk/p/0ca925dfc411cba8b07278f2ce3bf4a9.jpg_400x400q80.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Last Chance Buy OPPO Reno11 5G | 12GB RAM + 256GB ROM at Lowest Price</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="productPrice pb-2">7500</div>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-xl-3">
+                    <div class="card">
+                        <img src="https://img.drz.lazcdn.com/static/pk/p/0ca925dfc411cba8b07278f2ce3bf4a9.jpg_400x400q80.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Last Chance Buy OPPO Reno11 5G | 12GB RAM + 256GB ROM at Lowest Price</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="productPrice pb-2">7500</div>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-xl-3">
+                    <div class="card">
+                        <img src="https://img.drz.lazcdn.com/static/pk/p/0ca925dfc411cba8b07278f2ce3bf4a9.jpg_400x400q80.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Last Chance Buy OPPO Reno11 5G | 12GB RAM + 256GB ROM at Lowest Price</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="productPrice pb-2">7500</div>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

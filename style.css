@@ -1,17 +1,31 @@
+section{
+    padding-top: 180px;
+}
 .maincontainer{
-    background-color: orangered;
-    height: 125px;
-    width: 100%;
-    position: sticky;
-    top: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.productPrice{
+    color: orange;
+    font-size: 16px;
 }
 .image{
     display: flex;
-    align-items: center; 
-    column-gap: 80px;
-    padding-left: 74px;
+    align-items: center;
+    column-gap: 50px;
+    /* padding-left: 74px; */
 }
-.image > img{
+.header-search{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.icon-1{
+    display: flex;
+   column-gap: 80px;
+}
+.image img{
     width: 137px;
     height: 42px;
 }
@@ -21,19 +35,26 @@
     border: none;
 }
 header{
+    background-color: orangered;
+    height: 125px;
+    width: 100%;
+    /* position: sticky;
+    top: 0;
     display: flex;
     align-items: center;   
     color: white;
-    font-size: 12px;
+    font-size: 12px; */
 }
  nav ul{
     display: flex;
     list-style-type: none;
     column-gap: 35px;
-    padding-left: 617px;
-    padding-top: opx;
+    font-family: sans-serif;
+    font-size: 11px;
+    padding-left: 460px;
+    /* padding-left: 617px;
+    padding-top:0px; */
 }
-#icon{
-    height: 28px;
-    width: 400px;
+.daraz-shop-icon{
+    padding-right: 20px
 }
